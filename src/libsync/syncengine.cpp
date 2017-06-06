@@ -1159,6 +1159,7 @@ void SyncEngine::checkForPermission(SyncFileItemVector &syncItems)
     bool selectiveListOk;
     auto selectiveSyncBlackList = _journal->getSelectiveSyncList(SyncJournalDb::SelectiveSyncBlackList, &selectiveListOk);
     std::sort(selectiveSyncBlackList.begin(), selectiveSyncBlackList.end());
+    SyncFileItemPtr needle;
 
     for (SyncFileItemVector::iterator it = syncItems.begin(); it != syncItems.end(); ++it) {
         if ((*it)->_direction != SyncFileItem::Up) {
@@ -1179,6 +1180,34 @@ void SyncEngine::checkForPermission(SyncFileItemVector &syncItems)
             if ((*it)->_isDirectory) {
                 for (SyncFileItemVector::iterator it_next = it + 1; it_next != syncItems.end() && (*it_next)->_file.startsWith(path); ++it_next) {
                     it = it_next;
+                    if ((*it)->_direction != SyncFileItem::Up && (*it)->_instruction == CSYNC_INSTRUCTION_REMOVE) {
+                        // We need to keep the "delete" items. So we need to un-ignore parent directories
+                        QString parentDir = (*it)->_file;
+                        do {
+                            parentDir = QFileInfo(parentDir).path();
+                            if (parentDir.isEmpty()) {
+                                break;
+                            }
+                            // Find the parent directory in the syncItems vector. Since the vector
+                            // is sorted we can use a lower_bound, but we need a fake
+                            // SyncFileItemPtr needle to compare against
+                            if (!needle)
+                                needle = SyncFileItemPtr::create();
+                            needle->_file = parentDir;
+                            auto parent_it = std::lower_bound(syncItems.begin(), it, needle);
+                            if (parent_it == syncItems.end() || (*parent_it)->destination() != parentDir) {
+                                break;
+                            }
+                            ASSERT((*parent_it)->_isDirectory);
+                            if ((*parent_it)->_instruction != CSYNC_INSTRUCTION_IGNORE) {
+                                break; // already changed
+                            }
+                            (*parent_it)->_instruction = CSYNC_INSTRUCTION_UPDATE_METADATA;
+                            (*parent_it)->_status = SyncFileItem::NoStatus;
+
+                        } while (true);
+                        continue;
+                    }
                     (*it)->_instruction = CSYNC_INSTRUCTION_IGNORE;
                     (*it)->_status = SyncFileItem::FileIgnored;
                     (*it)->_errorString = tr("Ignored because of the \"choose what to sync\" blacklist");
