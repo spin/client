@@ -34,7 +34,8 @@ set(client_UI
     notificationwidget.ui
     wizard/owncloudadvancedsetuppage.ui
     wizard/owncloudconnectionmethoddialog.ui
-    wizard/owncloudhttpcredspage.ui
+    wizard/owncloudoauthcredspage.ui
+    wizard/owncloudwizardresultpage.ui
     wizard/owncloudsetupnocredspage.ui
     wizard/owncloudwizardresultpage.ui
 )
