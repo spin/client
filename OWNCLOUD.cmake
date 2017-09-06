@@ -1,5 +1,5 @@
 set( APPLICATION_NAME       "Box101" )
-set( APPLICATION_EXECUTABLE "owncloud" )
+set( APPLICATION_EXECUTABLE "Box101" )
 set( APPLICATION_DOMAIN     "owncloud.com" )
 set( APPLICATION_VENDOR     "ownCloud" )
 set( APPLICATION_UPDATE_URL "https://updates.owncloud.com/client/" CACHE string "URL for updater" )
