@@ -299,7 +299,7 @@
     <message>
         <location filename="../src/mirall/application.cpp" line="361"/>
         <source>Open folder &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+	<translation>開啟 Box101 資料夾</translation>
     </message>
     <message>
         <location filename="../src/mirall/application.cpp" line="484"/>

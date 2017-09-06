@@ -3291,7 +3291,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="381"/>
         <source>Open folder &apos;%1&apos;</source>
-        <translation>開啟 %1 資料夾</translation>
+        <translation>開啟 Box101 資料夾</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="353"/>
