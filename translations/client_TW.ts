@@ -1239,7 +1239,7 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="392"/>
         <source>creating folder on ownCloud: %1</source>
-        <translation>在 ownCloud 建立資料夾： %1</translation>
+        <translation>在 Box101 建立資料夾： %1</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="410"/>
@@ -1348,7 +1348,7 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/owncloudwizard.cpp" line="469"/>
         <source>ownCloud folder &lt;i&gt;%1&lt;/i&gt; is synced to local folder &lt;i&gt;%2&lt;/i&gt;</source>
-        <translation>ownCloud 資料夾 &lt;i&gt;%1&lt;/i&gt; 已經與本地資料夾 &lt;i&gt;%2&lt;/i&gt; 同步</translation>
+        <translation>Box101 資料夾 &lt;i&gt;%1&lt;/i&gt; 已經與本地資料夾 &lt;i&gt;%2&lt;/i&gt; 同步</translation>
     </message>
 </context>
 <context>
@@ -1618,7 +1618,7 @@ Are you sure you want to perform this operation?</source>
         <location filename="../src/mirall/owncloudsetuppage.ui" line="147"/>
         <location filename="../src/mirall/owncloudsetuppage_ng.ui" line="270"/>
         <source>Enter the url of the ownCloud you want to connect to (without http or https).</source>
-        <translation>輸入欲連線的ownCloud的url(不需要輸入http或http)</translation>
+        <translation>輸入欲連線的Box101的url(不需要輸入http或http)</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetuppage.ui" line="47"/>
@@ -1639,7 +1639,7 @@ Are you sure you want to perform this operation?</source>
         <location filename="../src/mirall/owncloudsetuppage.ui" line="85"/>
         <location filename="../src/mirall/owncloudsetuppage_ng.ui" line="296"/>
         <source>Enter the ownCloud username.</source>
-        <translation>輸入ownCloud使用者名稱</translation>
+        <translation>輸入Box101使用者名稱</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetuppage.ui" line="92"/>
@@ -1650,7 +1650,7 @@ Are you sure you want to perform this operation?</source>
         <location filename="../src/mirall/owncloudsetuppage.ui" line="102"/>
         <location filename="../src/mirall/owncloudsetuppage_ng.ui" line="325"/>
         <source>Enter the ownCloud password.</source>
-        <translation>輸入ownCloud使用者密碼</translation>
+        <translation>輸入Box101使用者密碼</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetuppage.ui" line="117"/>
@@ -1866,7 +1866,7 @@ Are you sure you want to perform this operation?</source>
         <location filename="../src/mirall/owncloudtheme.cpp" line="99"/>
         <source>If you don&apos;t have an ownCloud server yet, see &lt;a href=&quot;https://owncloud.com&quot;&gt;owncloud.com&lt;/a&gt; for more info.</source>
         <comment>Top text in setup wizard. Keep short!</comment>
-        <translation type="unfinished"/>
+        <translation>If you don&apos;t have an Box101 server yet, contact your service provider for more info.</translation>
     </message>
 </context>
 <context>
@@ -1879,7 +1879,7 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/owncloudtheme.cpp" line="65"/>
         <source>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;written by Klaas Freitag, Daniel Molkentin, ownCloud Inc., based on Mirall by Duncan Mac-Vicar P.&lt;/small&gt;&lt;/p&gt;%7</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Version %2. For more information, contact your service provider.</translation>
     </message>
 </context>
 </TS>
