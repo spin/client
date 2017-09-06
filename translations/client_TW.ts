@@ -171,7 +171,7 @@
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="288"/>
         <source>No %1 connection configured.</source>
-        <translation>無%1連線設定</translation>
+        <translation>無Box101連線設定</translation>
     </message>
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="349"/>
@@ -249,7 +249,7 @@
     <message>
         <location filename="../src/mirall/application.cpp" line="285"/>
         <source>Open %1 in browser</source>
-        <translation type="unfinished"/>
+        <translation>瀏覽器中開啟 Box101</translation>
     </message>
     <message>
         <location filename="../src/mirall/application.cpp" line="287"/>
@@ -864,12 +864,12 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/folderwizard.cpp" line="198"/>
         <source>Folder was successfully created on %1.</source>
-        <translation>資料夾成功建立在%1</translation>
+        <translation>資料夾成功建立在Box101</translation>
     </message>
     <message>
         <location filename="../src/mirall/folderwizard.cpp" line="201"/>
         <source>Failed to create the folder on %1.&lt;br/&gt;Please check manually.</source>
-        <translation>在%1建立資料夾失敗&lt;br/&gt;請手動檢查</translation>
+	<translation>在Box101建立資料夾失敗&lt;br/&gt;請手動檢查</translation>
     </message>
     <message>
         <location filename="../src/mirall/folderwizard.cpp" line="232"/>
@@ -1189,12 +1189,12 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="196"/>
         <source>Trying to connect to %1 at %2...</source>
-        <translation>嘗試連線到%1從%2</translation>
+        <translation>嘗試連線到Box101從%2</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="276"/>
         <source>&lt;font color=&quot;green&quot;&gt;Successfully connected to %1: %2 version %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</source>
-        <translation>&lt;font color=&quot;green&quot;&gt;成功連線到 %1: %2 版本 %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
+        <translation>&lt;font color=&quot;green&quot;&gt;成功連線到 %1: Box101 版本 %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="152"/>
@@ -1209,7 +1209,7 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="293"/>
         <source>Failed to connect to %1:&lt;br/&gt;%2</source>
-        <translation>無法連線到 %1 ：&lt;br/&gt;%2</translation>
+        <translation>無法連線到 Box101 ：&lt;br/&gt;%2</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="324"/>
@@ -1270,12 +1270,12 @@ Are you sure you want to perform this operation?</source>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="448"/>
         <source>Successfully connected to %1!</source>
-        <translation>成功連接到 %1 ！</translation>
+        <translation>成功連接到 Box101 ！</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="453"/>
         <source>Connection to %1 could not be established. Please check again.</source>
-        <translation>無法建立連線%1, 請重新檢查</translation>
+        <translation>無法建立連線Box101, 請重新檢查</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="313"/>
