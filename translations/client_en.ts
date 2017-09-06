@@ -240,7 +240,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="573"/>
         <source>No connection to %1 at %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>No connection to Box101 at %2.</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="597"/>
@@ -320,8 +320,8 @@
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="579"/>
-        <source>No %1 connection configured.</source>
-        <translation type="unfinished"></translation>
+	<source>No %1 connection configured.</source>
+	<translation>No Box101 connection configured.</translation>
     </message>
 </context>
 <context>
@@ -498,7 +498,7 @@
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="370"/>
         <source>%1 Notifications - Action Required</source>
-        <translation type="unfinished"></translation>
+        <translation>Box101 Notifications - Action Required</translation>
     </message>
 </context>
 <context>
@@ -1144,17 +1144,17 @@ Continuing the sync as normal will cause all your files to be overwritten by an 
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="212"/>
         <source>Folder was successfully created on %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Folder was successfully created on Box101.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="223"/>
         <source>Authentication failed accessing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Authentication failed accessing Box101</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="225"/>
         <source>Failed to create the folder on %1. Please check manually.</source>
-        <translation type="unfinished"></translation>
+        <translation>Failed to create the folder on Box101. Please check manually.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="232"/>
@@ -1824,22 +1824,22 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="191"/>
         <source>&lt;font color=&quot;green&quot;&gt;Successfully connected to %1: %2 version %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;font color=&quot;green&quot;&gt;Successfully connected to %1: Box101 version %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="227"/>
         <source>Failed to connect to %1 at %2:&lt;br/&gt;%3</source>
-        <translation type="unfinished"></translation>
+        <translation>Failed to connect to Box101 at %2:&lt;br/&gt;%3</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="261"/>
         <source>Timeout while trying to connect to %1 at %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Timeout while trying to connect to Box101 at %2.</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="272"/>
         <source>Trying to connect to %1 at %2...</source>
-        <translation type="unfinished"></translation>
+        <translation>Trying to connect to Box101 at %2...</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="322"/>
@@ -1941,12 +1941,12 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="498"/>
         <source>Successfully connected to %1!</source>
-        <translation type="unfinished"></translation>
+        <translation>Successfully connected to Box101!</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="505"/>
         <source>Connection to %1 could not be established. Please check again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Connection to Box101 could not be established. Please check again.</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="518"/>
@@ -2498,7 +2498,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/sharedialog.cpp" line="102"/>
         <source>%1 Sharing</source>
-        <translation type="unfinished"></translation>
+        <translation>Box101 Sharing</translation>
     </message>
     <message>
         <location filename="../src/gui/sharedialog.cpp" line="77"/>
@@ -3219,7 +3219,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/systray.cpp" line="55"/>
         <source>%1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Box101: %2</translation>
     </message>
 </context>
 <context>
@@ -3322,7 +3322,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="353"/>
         <source>Open %1 in browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Box101 in browser</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="736"/>
@@ -3347,7 +3347,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="748"/>
         <source>Quit %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Quit Box101</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="282"/>
