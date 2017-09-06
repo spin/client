@@ -238,7 +238,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="573"/>
         <source>No connection to %1 at %2.</source>
-        <translation>沒有從 %2 連線到 %1</translation>
+        <translation>沒有從 %2 連線到 Box101</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="597"/>
@@ -319,7 +319,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="579"/>
         <source>No %1 connection configured.</source>
-        <translation>沒有 %1 連線設置。</translation>
+        <translation>沒有 Box101 連線設置。</translation>
     </message>
 </context>
 <context>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="370"/>
         <source>%1 Notifications - Action Required</source>
-        <translation>%1 通知 - 需要動作</translation>
+        <translation>Box101 通知 - 需要動作</translation>
     </message>
 </context>
 <context>
@@ -1112,17 +1112,17 @@ Continuing the sync as normal will cause all your files to be overwritten by an 
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="212"/>
         <source>Folder was successfully created on %1.</source>
-        <translation>資料夾成功建立在%1</translation>
+        <translation>資料夾成功建立在Box101</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="223"/>
         <source>Authentication failed accessing %1</source>
-        <translation>存取 %1 認証失敗 </translation>
+        <translation>存取 Box101 認証失敗 </translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="225"/>
         <source>Failed to create the folder on %1. Please check manually.</source>
-        <translation>在 %1 建立資料夾失敗，請手動檢查</translation>
+        <translation>在 Box101 建立資料夾失敗，請手動檢查</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard.cpp" line="232"/>
@@ -1796,22 +1796,22 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="191"/>
         <source>&lt;font color=&quot;green&quot;&gt;Successfully connected to %1: %2 version %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</source>
-        <translation>&lt;font color=&quot;green&quot;&gt;成功連線到 %1: %2 版本 %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
+        <translation>&lt;font color=&quot;green&quot;&gt;成功連線到 %1: Box101 版本 %3 (%4)&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="227"/>
         <source>Failed to connect to %1 at %2:&lt;br/&gt;%3</source>
-        <translation>從 %2 連線到 %1 失敗:&lt;br/&gt;%3</translation>
+        <translation>從 %2 連線到 Box101 失敗:&lt;br/&gt;%3</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="261"/>
         <source>Timeout while trying to connect to %1 at %2.</source>
-        <translation>從 %2 嘗試連線到 %1 逾時。</translation>
+        <translation>從 %2 嘗試連線到 Box101 逾時。</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="272"/>
         <source>Trying to connect to %1 at %2...</source>
-        <translation>嘗試連線到%1從%2</translation>
+        <translation>嘗試連線到Box101從%2</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="322"/>
@@ -1913,12 +1913,12 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="498"/>
         <source>Successfully connected to %1!</source>
-        <translation>成功連接到 %1 ！</translation>
+        <translation>成功連接到 Box101 ！</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="505"/>
         <source>Connection to %1 could not be established. Please check again.</source>
-        <translation>無法建立連線%1, 請重新檢查</translation>
+        <translation>無法建立連線Box101, 請重新檢查</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="518"/>
@@ -2470,7 +2470,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/sharedialog.cpp" line="102"/>
         <source>%1 Sharing</source>
-        <translation>%1 分享</translation>
+        <translation>Box101 分享</translation>
     </message>
     <message>
         <location filename="../src/gui/sharedialog.cpp" line="77"/>
@@ -3193,7 +3193,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/systray.cpp" line="55"/>
         <source>%1: %2</source>
-        <translation>%1: %2</translation>
+        <translation>Box101: %2</translation>
     </message>
 </context>
 <context>
@@ -3296,7 +3296,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="353"/>
         <source>Open %1 in browser</source>
-        <translation>瀏覽器中開啟 %1</translation>
+        <translation>瀏覽器中開啟 Box101</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="736"/>
@@ -3321,7 +3321,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="748"/>
         <source>Quit %1</source>
-        <translation>離開 %1</translation>
+        <translation>離開 Box101</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudgui.cpp" line="282"/>
