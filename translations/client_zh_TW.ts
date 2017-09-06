@@ -546,7 +546,7 @@
     <message>
         <location filename="../src/gui/application.cpp" line="174"/>
         <source>Quit ownCloud</source>
-        <translation type="unfinished"/>
+	<translation>離開 Box101</translation>
     </message>
 </context>
 <context>
@@ -585,7 +585,7 @@
     <message>
         <location filename="../src/libsync/connectionvalidator.cpp" line="66"/>
         <source>No ownCloud account configured</source>
-        <translation>沒有設置 ownCloud 帳號</translation>
+        <translation>沒有設置 Box101 帳號</translation>
     </message>
     <message>
         <location filename="../src/libsync/connectionvalidator.cpp" line="260"/>
@@ -1871,7 +1871,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="443"/>
         <source>creating folder on ownCloud: %1</source>
-        <translation>在 ownCloud 建立資料夾： %1</translation>
+        <translation>在 Box101 建立資料夾： %1</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetupwizard.cpp" line="459"/>
@@ -2465,7 +2465,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/sharedialog.ui" line="50"/>
         <source>ownCloud Path:</source>
-        <translation>ownCloud 路徑:</translation>
+        <translation>Box101 路徑:</translation>
     </message>
     <message>
         <location filename="../src/gui/sharedialog.cpp" line="102"/>
@@ -3206,7 +3206,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/libsync/theme.cpp" line="319"/>
         <source>&lt;p&gt;Copyright ownCloud GmbH&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Copyright Box101 GmbH&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/theme.cpp" line="320"/>
@@ -3445,7 +3445,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/libsync/owncloudtheme.cpp" line="48"/>
         <source>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://central.owncloud.org/c/help/desktop-file-sync&quot;&gt;https://central.owncloud.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Copyright ownCloud GmbH&lt;/p&gt;&lt;p&gt;Licensed under the GNU General Public License (GPL) Version 2.0&lt;br/&gt;ownCloud and the ownCloud Logo are registered trademarks of ownCloud GmbH in the United States, other countries, or both.&lt;/p&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;p&gt;Version %2. For more information visit &lt;a href=&quot;%3&quot;&gt;https://%4&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://central.owncloud.org/c/help/desktop-file-sync&quot;&gt;https://central.owncloud.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;small&gt;By Klaas Freitag, Daniel Molkentin, Olivier Goffart, Markus Götz,  Jan-Christoph Borchardt, and others.&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Copyright Box101 GmbH&lt;/p&gt;&lt;p&gt;Licensed under the GNU General Public License (GPL) Version 2.0&lt;br/&gt;Box101 and the Box101 Logo are registered trademarks of Box101 GmbH in the United States, other countries, or both.&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -3586,7 +3586,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetuppage.ui" line="88"/>
         <source>Enter the ownCloud username.</source>
-        <translation>輸入ownCloud使用者名稱</translation>
+        <translation>輸入Box101使用者名稱</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetuppage.ui" line="95"/>
@@ -3596,7 +3596,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetuppage.ui" line="105"/>
         <source>Enter the ownCloud password.</source>
-        <translation>輸入ownCloud使用者密碼</translation>
+        <translation>輸入Box101使用者密碼</translation>
     </message>
     <message>
         <location filename="../src/gui/owncloudsetuppage.ui" line="120"/>
@@ -3616,7 +3616,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/gui/owncloudsetuppage.ui" line="150"/>
         <source>Enter the url of the ownCloud you want to connect to (without http or https).</source>
-        <translation>輸入欲連線的ownCloud的url(不需要輸入http或http)</translation>
+        <translation>輸入欲連線的Box101的url(不需要輸入http或http)</translation>
     </message>
     <message>
         <location filename="../src/gui/wizard/owncloudsetupnocredspage.ui" line="86"/>
